@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LemonTea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+         <div class="icon"><span><img src="Team-Logo.png" alt=""></span></div>
+         <!-- <div><span><img src="" alt=""></span></div> -->
+    </header>
+    <main class="auth-form-container">
+        
+        <input class="checkbox" type="checkbox" id="toggle">
+
+        <div class="login-form-container losi">
+            <div class="h1">
+            <h1>Login</h1>
+            </div>
+            <form action="#login" method="post">
+                <div class="form-section-login formlosi">
+                    <label for="username">Username: </label>
+                    <br>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+                <div class="form-section-login formlosi password-login">
+                    <label for="password">Password: </label>
+                    <br>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    <!-- <input type="checkbox" name="view-password" id="view-password" onclick="togglePassword()"> -->
+                </div>
+                <div class="text1"><span class="hover1 forgot-pass">Forgot Password?</span></div>
+                <div class="button">
+                    <button class="sign-button hover1" type="submit">Sign in</button>
+                </div>
+                <div class="text2"><span>or continue with</span></div>
+                <div class="grid-container formlosi">
+                    <div class="socials-container"><button type="button" class="socials hover1"><img src="google-svgrepo-com.svg" alt=""></button></div>
+                    <div class="socials-container"><button type="button" class="socials hover1"><img src="github-svgrepo-com.svg" alt=""></button></div>
+                    <div class="socials-container"><button type="button" class="socials hover1"><img src="facebook-svgrepo-com.svg" alt=""></button></div>
+                </div>
+                <div class="switch"><span>Don't have an account? <label for="toggle" class="switch-button signup">Register here</label></span></div>
+            </form>
+        </div>
+
+        <div class="sign-up-form-container losi">
+            <div class="h1">
+            <h1>Sign Up</h1>
+            </div>
+            <form action="#signup" method="post">
+                <div class="form-section-signup formlosi">
+                    <label for="name">Name:</label>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-section-signup formlosi">
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-section-signup formlosi">
+                    <label for="phone">Phone:</label>
+                    <br>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-section-signup formlosi">
+                    <label for="gender">Gender:</label>
+                    <br>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select your gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-section-signup formlosi">
+                    <label for="dob">Date of Birth:</label>
+                    <br>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <div class="form-section-signup formlosi">
+                    <label for="password">Password:</label>
+                    <br>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    <!-- <input type="checkbox" name="view-password" id="view-password" onclick="togglePassword()"> -->
+                    <br>
+                    <br>
+                    <label for="confirm-password">Confirm Password:</label>
+                    <br>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+                </div>
+                <div class="button">
+                    <button class="sign-button hover1" type="submit">Sign Up</button>
+                </div>
+                <div class="switch"><span>Already have an account? <label for="toggle" class="switch-button login">Login here</label></span></div>
+            </form>
+        </div>
+
+        <div class="background">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
